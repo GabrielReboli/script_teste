@@ -8,7 +8,7 @@
 
 **Monitora:** Suellen Miranda Amorim
 
-#Introdução
+# Introdução
 
 ## O que é um PSET?
 
@@ -18,10 +18,10 @@ PSET (Problem Set) é um conjunto de problemas ou exercícios propostos para est
 
 O trabalho em questão tem como objetivo a implementação de um banco de dados sobre as lojas da UVV. Todo o processo teve como objetivo:
 
-   - Desenvolver o conhecimento sobre sistemas de controle de versões,, em especial o Git e o GitHub
-   - Adquirir conhecimento em Markdown
-   - Implementar um projeto lógico de banco de dados utilizando o PostgreSQL
-   - Desenvolver habilidades de pesquisa e solução de problemas
+   - Desenvolver o conhecimento sobre sistemas de controle de versões,, em especial o Git e o GitHub;
+   - Adquirir conhecimento em Markdown;
+   - Implementar um projeto lógico de banco de dados utilizando o PostgreSQL;
+   - Desenvolver habilidades de pesquisa e solução de problemas.
  
 
 # Implementação
