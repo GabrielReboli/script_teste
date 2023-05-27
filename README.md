@@ -10,7 +10,7 @@
 **Monitora:** Suellen Miranda Amorim
 
 
-# Introdução
+1. # Introdução
 
 ## O que é um PSET?
 
@@ -22,7 +22,7 @@ O Trabalho em questão tem como objetivo a implementação de um banco de dados 
 
 ---
 
-# Implementação
+2 .# Implementação
 
 ## Script
 
@@ -35,10 +35,10 @@ Através do software SQL Power Architect, foi gerado os scripts SQL do projeto l
 
 
 
-# Conclusão
+3 .# Conclusão
 
 Após todo árduo trabalho, o PSET1 está finalizado. O projeto foi realmente desafiador, forçando a realização de uma quantidade enorme de pesquisa para a realização. 
-Vejo todo o processo de grande ajuda para aprender mais sobre banco de dados e a fixar conteúdos já obtidos. Ao fim, espero ter evoluido como estudante e estar mais apto para o proxímo desáfio.
+Vejo todo o processo de grande ajuda para aprender mais sobre banco de dados e a fixar conteúdos já obtidos. Ao fim, espero ter evoluido como estudante e estar mais apto para o proxímo desafio.
 
 
 
