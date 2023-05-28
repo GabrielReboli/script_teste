@@ -1,14 +1,14 @@
 # Design e Desenvolvimento de Bancos de Dados
 
-### **Aluno:** Gabriel da Silva Reboli
+**Aluno:** Gabriel da Silva Reboli
 
-### **Professor:** Abrantes Araújo Silva Filho
+**Professor:** Abrantes Araújo Silva Filho
 
-### **Monitora:** Suellen Miranda Amorim
+**Monitora:** Suellen Miranda Amorim
 
-# Introdução
 
-## Sobre o repositório
+
+# Sobre o repositório
 
 Este repositório é um ambiente centralizado e organizado para armazenar os diretórios das atividades avaliativas do aluno **Gabriel da Silva Reboli** relacionadas à disciplina de **Design e Desenvolvimento de Banco de Dados** ministrada pelo professor **Abrantes Araújo Silva Filho**. Esse repositório foi criado com o objetivo de fornecer uma estrutura clara e consistente para o armazenamento e o compartilhamento dessas atividades entre o aluno e o professor.
 
