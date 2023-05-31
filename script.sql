@@ -44,7 +44,7 @@ CREATE TABLE 	produtos (
 				detalhes                    BYTEA,
 				imagem                      BYTEA,
 				imagem_mime_type            VARCHAR(512),
-				imagem_arquivo 		    VARCHAR(512),
+				imagem_arquivo 				      VARCHAR(512),
 				imagem_charset              VARCHAR(512),
 				imagem_ultima_atualizacao   DATE
                
@@ -52,7 +52,7 @@ CREATE TABLE 	produtos (
 );
 
 -- Incluir comentário nos metadados para descrever a tabela produtos
-COMMENT ON TABLE 	produtos                            	IS 'Armazena os produtos disponíveis.';
+COMMENT ON TABLE 	  produtos                            	    IS 'Armazena os produtos disponíveis.';
 
 -- Incluir comentários nos metadados para descrever as colunas da tabela produtos
 COMMENT ON COLUMN 	produtos.produto_id                   	IS 'Chave primária da tabela produtos. Identifica o produto.';
@@ -61,7 +61,7 @@ COMMENT ON COLUMN 	produtos.preco_unitario               	IS 'Preço unitário d
 COMMENT ON COLUMN 	produtos.detalhes                     	IS 'Detalhes do produto em questão.';
 COMMENT ON COLUMN 	produtos.imagem                       	IS 'Imagem do produto em questão.';
 COMMENT ON COLUMN 	produtos.imagem_mime_type             	IS 'Formato de imagem da imagem do produto.';
-COMMENT ON COLUMN	produtos.imagem_arquivo			IS 'Coluna para armazenar o arquivo da imagem';
+COMMENT ON COLUMN	  produtos.imagem_arquivo					          IS 'Coluna para armazenar o arquivo da imagem';
 COMMENT ON COLUMN 	produtos.imagem_charset               	IS 'Conjunto de caracteres da da imagem.';
 COMMENT ON COLUMN 	produtos.imagem_ultima_atualizacao    	IS 'Data da última atualização da imagem do produto.';
 
@@ -107,7 +107,7 @@ COMMENT ON COLUMN lojas.logo_ultima_atualizacao   IS 'Data da última atualizaç
 -- Criar tabela estoques
 CREATE TABLE 	estoques (
                 estoque_id 		NUMERIC(38) 	NOT NULL,
-                loja_id 		NUMERIC(38) 	NOT NULL,
+                loja_id 		  NUMERIC(38) 	NOT NULL,
                 produto_id 		NUMERIC(38) 	NOT NULL,
                 quantidade 		NUMERIC(38) 	NOT NULL
 				
@@ -175,7 +175,7 @@ COMMENT ON COLUMN envios.status               IS 'Estado do envio. Identifica as
 -- Criar tabela pedidos
 CREATE TABLE 	pedidos (
                 pedido_id     NUMERIC(38) 	  	NOT NULL,
-                data_hora     TIMESTAMP 		NOT NULL,
+                data_hora     TIMESTAMP 		    NOT NULL,
                 cliente_id    NUMERIC(38) 	  	NOT NULL,
                 status        VARCHAR(15) 	  	NOT NULL,
                 loja_id       NUMERIC(38) 	  	NOT NULL
@@ -200,7 +200,7 @@ CREATE TABLE 	pedidos_itens (
                 pedido_id           NUMERIC(38) 	  	NOT NULL,
                 produto_id          NUMERIC(38) 	  	NOT NULL,
                 numero_da_linha     NUMERIC(38) 	  	NOT NULL,
-                preco_unitario      NUMERIC(10,2)		NOT NULL,
+                preco_unitario      NUMERIC(10,2)		  NOT NULL,
                 quantidade          NUMERIC(38) 	  	NOT NULL,
                 envio_id            NUMERIC(38)
                 
